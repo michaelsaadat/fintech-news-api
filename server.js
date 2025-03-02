@@ -20,7 +20,7 @@ const REGULATORY_SOURCES = {
 
 // TheNewsAPI credentials
 const NEWS_API_URL = "https://api.thenewsapi.com/v1/news/all";
-const NEWS_API_KEY = "p76liIUyYNcz1p1xzuGmT5y9WQXfBvmY7DVxbm89";  // Your API Key
+const NEWS_API_KEY =
 
 app.get("/fintech-news", async (req, res) => {
     const { country, topic } = req.query;
